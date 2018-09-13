@@ -1,4 +1,4 @@
-# The Games Shop
+# E-retailer Customization Boilerplate
 
 ## Requirements
 
