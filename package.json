@@ -1,0 +1,30 @@
+{
+  "name": "eretailer-customization-boilerplate",
+  "version": "0.0.1",
+  "description": "E-retailer customizations with jQuery and SCSS",
+  "main": "src/js/index.js",
+  "author": "Jirffey G. Gabuya",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "detect-browser": "^3.0.0",
+    "elevator.js": "^1.0.1",
+    "flexslider": "^2.7.1",
+    "ismobilejs": "^0.4.1",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "slick-carousel": "^1.8.1",
+    "url-parse": "^1.4.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
