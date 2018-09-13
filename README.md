@@ -21,4 +21,4 @@ See the [docs](docs/index.md) page
 
 ## E-retailer version
 
-This works for [E-retailer](http://www.kudos.net.au/) version v3.0.296
+This works for [E-retailer](http://www.kudos.net.au/) version v3.0.296, with `Website Design > Method` set to `Responsive` in `/admin/site/sitesetup.aspx`
