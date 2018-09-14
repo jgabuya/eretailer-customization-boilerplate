@@ -1,0 +1,32 @@
+@import "variables";
+
+@mixin transition_all {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+@mixin header_default_styles {}
+
+@mixin page_title {}
+
+@mixin page_sub_title {}
+
+@mixin breadcrumbs {}
+
+@mixin login_container {}
+
+@mixin form_label {}
+
+@mixin form_input {}
+
+@mixin validation_error {}
+
+// Category Page mixins
+@mixin filter_sortby_style {}
+
+@mixin filter_sortby_select {}
+
+@mixin product_description {}
+
+@mixin paragraph_styles {}

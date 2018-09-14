@@ -1,0 +1,32 @@
+// external
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+@import url('https://unpkg.com/flexslider@2.7.1/flexslider.css');
+@import url('https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css');
+@import url('https://unpkg.com/slick-carousel@1.8.1/slick/slick.css');
+@import url('https://unpkg.com/slick-carousel@1.8.1/slick/slick-theme.css');
+
+// global
+@import 'global';
+@import 'layout/header-top';
+@import 'layout/header-middle';
+@import 'layout/header-bottom';
+@import 'layout/footer-top';
+@import 'layout/footer-middle';
+@import 'layout/footer-bottom';
+
+// content
+@import 'pages/home';
+@import 'pages/login';
+@import 'pages/register';
+@import 'pages/all-categories';
+@import 'pages/category';
+@import 'pages/shopping-cart';
+@import 'pages/wishlist';
+@import 'pages/product-page';
+@import 'pages/checkout';
+@import 'pages/guest-checkout';
+@import 'pages/my-account';
+@import 'pages/search-results';
+@import 'pages/contact';
+@import 'pages/info-page';
+@import 'pages/not-found';

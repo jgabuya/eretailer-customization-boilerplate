@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+    background: none;
+
+    #bodywrapper {
+        @include transition_all();
+        display: block;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    #aspnetForm {}
+}
