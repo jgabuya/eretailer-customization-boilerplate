@@ -3,10 +3,10 @@ import config from '../config';
 import { createElement } from './util';
 
 class Layout {
-    constructor($el, $movableElements, $isFluid = false) {
-        this.$el = $el;
-        this.$movableElements = $movableElements;
-        this.isFluid = $isFluid;
+    constructor(props) {
+        this.$el = props.$el;
+        this.$movableElements = props.$movableElements;
+        this.isFluid = props.isFluid;
     }
 
     addContainer() {
