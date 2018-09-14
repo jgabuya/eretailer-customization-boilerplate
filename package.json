@@ -17,7 +17,11 @@
     "url-parse": "^1.4.3"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "css-loader": "^0.28.11",
+    "jest": "^23.6.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
@@ -25,6 +29,7 @@
     "webpack-cli": "^3.0.8"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "test": "jest"
   }
 }
