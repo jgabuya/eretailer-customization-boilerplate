@@ -3,22 +3,33 @@ class IOCContainer {
         this.services = {}
     }
 
+    /**
+     * Sets a value under a key
+     * @param {string} key 
+     * @param {*} val 
+     */
     register(key, val) {
-        if (this.keyExists(key)) {
+        if (this._keyExists(key)) {
             throw `You are trying to register ${key} as ${val}, but it is already set as ${this.services[key]}`
         }
 
         this.services[key] = val
     }
 
+    /**
+     * Retrieves a key value
+     * @param {string} key 
+     */
     get(key) {
-        if (! this.keyExists(key)) {
+        if (! this._keyExists(key)) {
             throw `${key} does not exist!`
         }
+
+        return this.services[key]
     }
 
-    keyExists(key) {
-        return this.services.key !== undefined
+    _keyExists(key) {
+        return this.services[key] !== undefined
     }
 }
 

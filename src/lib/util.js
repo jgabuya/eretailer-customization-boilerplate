@@ -5,7 +5,7 @@
  * @param el
  * @param classNames
  * @param content
- * @returns {void | jQuery}
+ * @returns {void|jQuery}
  */
 export function createElement(el, classNames = '', content = '') {
     return $(`<${el}>`).addClass(classNames).append(content)
