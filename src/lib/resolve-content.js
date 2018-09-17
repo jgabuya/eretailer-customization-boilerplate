@@ -1,43 +1,74 @@
 // global $
 import constants from '../constants'
-import di from '../di-registry'
+import config from '../config'
+
+import Home from '../content/home'
+import Login from '../content/login'
+import Register from '../content/register'
+import Category from '../content/category'
+import AllCategories from '../content/all-categories'
+import Product from '../content/product'
+import ShoppingCart from '../content/shopping-cart'
+import Checkout from '../content/checkout'
+import GuestCheckout from '../content/guest-checkout'
+import MyAccount from '../content/my-account'
+import SearchResults from '../content/search-results'
+import Wishlist from '../content/wishlist'
+import Contact from '../content/contact'
+import InfoPage from '../content/info-page'
+import Default from '../content/default'
 
 const $body = $('body')
-let content
+let content = {}
 
 // determine content based on body class
 if ($body.hasClass(constants.CONTENT_OTHERS_CLASSNAME)) {
     if ($body.hasClass(constants.CONTENT_HOME_CLASSNAME)) {
-        content = di.get(constants.CONTENT_HOME)
+        content.component = Home
+        content.props = config.CONTENT_HOME_PROPS
     } else if ($body.hasClass(constants.CONTENT_LOGIN_CLASSNAME)) {
-        content = di.get(constants.CONTENT_LOGIN)
+        content.component = Login
+        content.props = config.CONTENT_LOGIN_PROPS
     } else if ($body.hasClass(constants.CONTENT_REGISTER_CLASSNAME)) {
-        content = di.get(constants.CONTENT_REGISTER)
+        content.component = Register
+        content.props = config.CONTENT_REGISTER_PROPS
     } else if ($body.hasClass(constants.CONTENT_ALL_CATEGORIES_CLASSNAME)) {
-        content = di.get(constants.CONTENT_ALL_CATEGORIES)
+        content.component = AllCategories
+        content.props = config.CONTENT_ALL_CATEGORIES_PROPS
     } else if ($body.hasClass(constants.CONTENT_SHOPPING_CART_CLASSNAME)) {
-        content = di.get(constants.CONTENT_SHOPPING_CART)
+        content.component = ShoppingCart
+        content.props = config.CONTENT_SHOPPING_CART_PROPS
     } else if ($body.hasClass(constants.CONTENT_WISHLIST_CLASSNAME)) {
-        content = di.get(constants.CONTENT_WISHLIST)
+        content.component = Wishlist
+        content.props = config.CONTENT_WISHLIST_PROPS
     } else if ($body.hasClass(constants.CONTENT_GUEST_CHECKOUT_CLASSNAME)) {
-        content = di.get(constants.CONTENT_GUEST_CHECKOUT)
+        content.component = GuestCheckout
+        content.props = config.CONTENT_GUEST_CHECKOUT_PROPS
     } else if ($body.hasClass(constants.CONTENT_CHECKOUT_CLASSNAME)) {
-        content = di.get(constants.CONTENT_CHECKOUT)
+        content.component = Checkout
+        content.props = config.CONTENT_CHECKOUT_PROPS
     } else if ($body.hasClass(constants.CONTENT_MY_ACCOUNT_CLASSNAME)) {
-        content = di.get(constants.CONTENT_MY_ACCOUNT)
+        content.component = MyAccount
+        content.props = config.CONTENT_MY_ACCOUNT_PROPS
     } else if ($body.hasClass(constants.CONTENT_CONTACT_FORM_CLASSNAME)) {
-        content = di.get(constants.CONTENT_CONTACT_FORM)
+        content.component = Contact
+        content.props = config.CONTENT_CONTACT_FORM_PROPS
     } else {
-        content = di.get(constants.CONTENT_NOT_FOUND)
+        content.component = Default
+        content.props = config.CONTENT_DEFAULT_PROPS
     }
 } else if ($body.hasClass(constants.CONTENT_CATEGORY_CLASSNAME)) {
-    content = di.get(constants.CONTENT_CATEGORY)
+    content.component = Category
+    content.props = config.CONTENT_CATEGORY_PROPS
 } else if ($body.hasClass(constants.CONTENT_PRODUCT_CLASSNAME)) {
-    content = di.get(constants.CONTENT_PRODUCT)
+    content.component = Product
+    content.props = config.CONTENT_PRODUCT_PROPS
 } else if ($body.hasClass(constants.CONTENT_SEARCH_CLASSNAME)) {
-    content = di.get(constants.CONTENT_SEARCH)
+    content.component = SearchResults
+    content.props = config.CONTENT_SEARCH_PROPS
 } else if ($body.hasClass(constants.CONTENT_INFO_PAGE_CLASSNAME)) {
-    content = di.get(constants.CONTENT_INFO_PAGE)
+    content.component = InfoPage
+    content.props = config.CONTENT_INFO_PAGE_PROPS
 }
 
 export default content
