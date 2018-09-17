@@ -1,4 +1,4 @@
-import IOCContainer from '../../../src/lib/ioc-container';
+import IOCContainer from './ioc-container';
 
 describe('#IOC Container', () => {
     let container;
