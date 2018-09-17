@@ -1,13 +1,13 @@
 // global $
 export default {
     HEADER_TOP_PROPS: {
-        $el: $('#'),
+        $el: $(''),
         $movableElements: [],
         isFluid: false
     },
 
     HEADER_MIDDLE_PROPS: {
-        $el: $('#'),
+        $el: $(''),
         $movableElements: [],
         isFluid: false
     },
