@@ -5,7 +5,7 @@ import HeaderMiddle from './layout/header-middle'
 import HeaderBottom from './layout/header-bottom'
 import FooterTop from './layout/footer-top'
 import FooterMiddle from './layout/footer-middle'
-import FooterBottom from './layout/footer-Bottom'
+import FooterBottom from './layout/footer-bottom'
 
 import Home from './content/home'
 import Login from './content/login'
