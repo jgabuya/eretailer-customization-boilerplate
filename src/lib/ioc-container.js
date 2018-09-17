@@ -10,7 +10,7 @@ class IOCContainer {
      */
     register(key, val) {
         if (this._keyExists(key)) {
-            throw `You are trying to register ${key} as ${val}, but it is already set as ${this.services[key]}`
+            throw `IOCContainer: You are trying to register ${key} as ${val}, but it is already set as ${this.services[key]}`
         }
 
         this.services[key] = val
@@ -22,7 +22,7 @@ class IOCContainer {
      */
     get(key) {
         if (! this._keyExists(key)) {
-            throw `${key} does not exist!`
+            throw `IOCContainer: The key '${key}' does not exist!`
         }
 
         return this.services[key]
