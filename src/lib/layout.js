@@ -1,6 +1,6 @@
 // global $
 import config from '../config';
-import { createElement } from './util';
+import createElement from './utils/create-element';
 
 class Layout {
     constructor(props) {

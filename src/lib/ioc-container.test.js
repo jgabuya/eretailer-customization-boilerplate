@@ -1,6 +1,6 @@
 import IOCContainer from './ioc-container';
 
-describe('#IOC Container', () => {
+describe('#IOCContainer', () => {
     let container;
 
     beforeAll(() => {
