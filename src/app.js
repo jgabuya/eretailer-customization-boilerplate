@@ -7,6 +7,7 @@ import './styles/app.scss'
 
 // render customizations
 $(document).ready(() => {
+    di.get(constants.GLOBAL).render()
     di.get(constants.HEADER_TOP).render()
     di.get(constants.HEADER_MIDDLE).render()
     di.get(constants.HEADER_BOTTOM).render()

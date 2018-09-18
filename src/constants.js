@@ -18,6 +18,7 @@ export default {
     CONTENT_INFO_PAGE_CLASSNAME: 'EPAGE',
     CONTENT_NOT_FOUND_CLASSNAME: 'NOTFOUND',
 
+    GLOBAL: 'global',
     HEADER_TOP: 'header-top',
     HEADER_MIDDLE: 'header-middle',
     HEADER_BOTTOM: 'header-bottom',

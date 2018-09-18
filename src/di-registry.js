@@ -1,5 +1,6 @@
 import IOCContainer from './lib/ioc-container'
 
+import Global from './layout/global'
 import HeaderTop from './layout/header-top'
 import HeaderMiddle from './layout/header-middle'
 import HeaderBottom from './layout/header-bottom'
@@ -15,6 +16,7 @@ import constants from './constants'
 const container = new IOCContainer()
 
 // register component instances
+container.register(constants.GLOBAL, new Global())
 container.register(constants.HEADER_TOP, new HeaderTop(config.HEADER_TOP_PROPS))
 container.register(constants.HEADER_MIDDLE, new HeaderMiddle(config.HEADER_MIDDLE_PROPS))
 container.register(constants.HEADER_BOTTOM, new HeaderBottom(config.HEADER_BOTTOM_PROPS))
