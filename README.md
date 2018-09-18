@@ -15,6 +15,10 @@ Run `yarn` to fetch packages
 
 2. Manually upload the file `dist/app.min.js` to `/admin/site/uploadfile.aspx` 
 
+## Testing
+
+Run `yarn test` to invoke unit tests
+
 ## Documentation
 
 See the [docs](docs/index.md) page
