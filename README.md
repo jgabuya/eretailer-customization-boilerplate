@@ -1,5 +1,7 @@
 # E-retailer Customization Boilerplate
 
+Jump-start your frontend customization of [E-retailer](http://www.kudos.net.au/) projects
+
 ## Requirements
 
 * [Node.js >= 8.11.2](https://nodejs.org/en)
@@ -25,4 +27,4 @@ See the [docs](docs/index.md) page
 
 ## E-retailer version
 
-This works for [E-retailer](http://www.kudos.net.au/) version v3.0.296, with `Website Design > Method` set to `Responsive` in `/admin/site/sitesetup.aspx`
+This works with E-retailer version **v3.0.296**, with `Website Design > Method` set to `Responsive` in `/admin/site/sitesetup.aspx`
