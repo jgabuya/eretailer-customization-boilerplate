@@ -1,6 +1,6 @@
-# `default.css` Additions
+# `responsive.css` Additions
 
-Add to the bottom of the file `default.css`. This allows showing of a loading image before `app.min.js` is loaded, preventing [FOUC](https://en.wikipedia.org/wiki/Flash_of_unstyled_content)
+Add to the bottom of the file `responsive.css` (`admin > site > templates`). This allows showing of a loading image before `app.min.js` is loaded, preventing [FOUC](https://en.wikipedia.org/wiki/Flash_of_unstyled_content)
 
 For this to work, a loading gif appropriately named `loading.gif` must be uploaded through `/admin/site/uploadfile.aspx`. Feel free to name the file whatever you want, just make sure the name matches with the `background-image url` property.
 
