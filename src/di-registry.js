@@ -7,7 +7,7 @@ import HeaderBottom from './layout/header-bottom'
 import FooterTop from './layout/footer-top'
 import FooterMiddle from './layout/footer-middle'
 import FooterBottom from './layout/footer-bottom'
-import content from './lib/resolve-content'
+import resolveContent from './lib/resolve-content'
 
 import config from './config'
 import {
@@ -21,8 +21,11 @@ import {
     CONTENT
 } from './constants'
 
-// init IOC container
+// Init IOC container
 const container = new IOCContainer()
+
+// init content resolver
+const content = resolveContent($('body'))
 
 // register component instances
 container.register(GLOBAL, new Global())
