@@ -12,7 +12,7 @@
     "flexslider": "^2.7.1",
     "ismobilejs": "^0.4.1",
     "jquery": "^3.3.1",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.13",
     "slick-carousel": "^1.8.1",
     "url-parse": "^1.4.3"
   },
@@ -21,7 +21,7 @@
     "babel-jest": "^23.6.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "css-loader": "^0.28.11",
-    "jest": "^23.6.0",
+    "jest": "^24.9.0",
     "jest-chain": "^1.0.3",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.3",
