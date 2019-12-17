@@ -20,7 +20,7 @@
     "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "css-loader": "^3.2.0",
+    "css-loader": "^3.4.0",
     "jest": "^24.9.0",
     "jest-chain": "^1.0.3",
     "node-sass": "^4.13.0",
