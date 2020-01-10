@@ -24,7 +24,7 @@
     "jest": "^24.9.0",
     "jest-chain": "^1.0.3",
     "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.0",
+    "sass-loader": "^8.0.1",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
