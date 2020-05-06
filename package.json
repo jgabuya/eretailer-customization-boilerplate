@@ -23,7 +23,7 @@
     "css-loader": "^3.5.3",
     "jest": "^24.9.0",
     "jest-chain": "^1.1.5",
-    "node-sass": "^4.14.0",
+    "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
