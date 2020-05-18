@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-jest": "^23.6.0",
+    "babel-jest": "^26.0.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "css-loader": "^3.5.3",
     "jest": "^24.9.0",
