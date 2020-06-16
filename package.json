@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "detect-browser": "^5.1.0",
+    "detect-browser": "^5.1.1",
     "elevator.js": "^1.0.1",
     "flexslider": "^2.7.1",
     "ismobilejs": "^1.1.1",
